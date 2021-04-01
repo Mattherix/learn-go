@@ -24,13 +24,12 @@ func main() {
 	*/
 	var test int = 16 // Surchargement de la variable
 	var (
-		vie     int    = 1
-		bibloup bool   = false
-		c       string = "Hello"
+		vie int    = 1
+		c   string = "Hello"
 	)
 
 	fmt.Printf("%d\n", test)
-	fmt.Printf("%d %t %s\n", vie, bibloup, c)
+	fmt.Printf("%d %t %s\n", vie, false, c)
 
 	// Typage dynamique
 	kill := 5
@@ -39,7 +38,7 @@ func main() {
 	const maConstante = 500
 
 	fmt.Printf("%d\n", maConstante)
-	fmt.Printf("%T\n", bibloup)
+	fmt.Printf("%T\n", false)
 
 	a := 3
 	b := 2
